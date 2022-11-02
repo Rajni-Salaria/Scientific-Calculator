@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Scientific Calculator</h1>
+        <div class="calculator">
+            <input type="text" placeholder="0" id="input" disabled>
+            <div class="row1">
+                <button onclick="rad()">Rad</button>
+                <button onclick="deg()">Deg</button>
+                <button onclick="log()">log</button>
+                <button onclick="numbers('(')">(</button>
+                <button onclick="numbers(')')">)</button>
+                <button onclick="numbers('%')">%</button>
+                <button onclick="Clearresult()" id="clean">AC</button>
+            </div>
+            <div class="row2">
+                <button onclick="sin()">sin</button>
+                <button onclick="exponent('**')">**</button>
+                <button onclick="numbers('7')">7</button>
+                <button onclick="numbers('8')">8</button>
+                <button onclick="numbers('9')">9</button>
+                <button onclick="numbers('*')">*</button>
+            </div>
+            <div class="row3">
+                <button onclick="cos()">cos</button>
+                <button onclick="pi()">π</button>
+                <button onclick="numbers('4')">4</button>
+                <button onclick="numbers('5')">5</button>
+                <button onclick="numbers('6')">6</button>
+                <button onclick="numbers('/')">/</button>
+            </div>
+            <div class="row4">
+                <button onclick="tan()">tan</button>
+                <button onclick="In()">ln</button>
+                <button onclick="numbers('1')">1</button>
+                <button onclick="numbers('2')">2</button>
+                <button onclick="numbers('3')">3</button>
+                <button onclick="numbers('-')">-</button>
+            </div>
+            <div class="row5">
+                <button onclick="factorial()">x!</button>
+                <button onclick="root()">√</button>
+                <button onclick="numbers('.')">.</button>
+                <button onclick="numbers('0')">0</button>
+                <button onclick="equal()">=</button>
+                <button onclick="numbers('+')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="scitificcalculator.js"></script>
+</body>
+
+</html>
